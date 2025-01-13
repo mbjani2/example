@@ -1,0 +1,5 @@
+#Ignore providers
+.terraform/providers/
+terraform_accessKeys.csv
+terraform_accessKeys.xls
+github.tf

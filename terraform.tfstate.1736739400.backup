@@ -1,84 +1,9 @@
 {
   "version": 4,
   "terraform_version": "1.10.2",
-  "serial": 78,
+  "serial": 50,
   "lineage": "ff65140a-14b3-3cf2-c4c4-8336d646a17a",
-  "outputs": {
-    "public_ip": {
-      "value": {
-        "address": null,
-        "allocation_id": "eipalloc-0460f2328f981e38b",
-        "arn": "arn:aws:ec2:ap-southeast-2:207567784968:elastic-ip/eipalloc-0460f2328f981e38b",
-        "associate_with_private_ip": null,
-        "association_id": "",
-        "carrier_ip": "",
-        "customer_owned_ip": "",
-        "customer_owned_ipv4_pool": "",
-        "domain": "vpc",
-        "id": "eipalloc-0460f2328f981e38b",
-        "instance": "",
-        "ipam_pool_id": null,
-        "network_border_group": "ap-southeast-2",
-        "network_interface": "",
-        "private_dns": null,
-        "private_ip": "",
-        "ptr_record": "",
-        "public_dns": "ec2-52-64-77-162.ap-southeast-2.compute.amazonaws.com",
-        "public_ip": "52.64.77.162",
-        "public_ipv4_pool": "amazon",
-        "tags": {
-          "Name": "Instance1"
-        },
-        "tags_all": {
-          "Name": "Instance1"
-        },
-        "timeouts": null,
-        "vpc": true
-      },
-      "type": [
-        "object",
-        {
-          "address": "string",
-          "allocation_id": "string",
-          "arn": "string",
-          "associate_with_private_ip": "string",
-          "association_id": "string",
-          "carrier_ip": "string",
-          "customer_owned_ip": "string",
-          "customer_owned_ipv4_pool": "string",
-          "domain": "string",
-          "id": "string",
-          "instance": "string",
-          "ipam_pool_id": "string",
-          "network_border_group": "string",
-          "network_interface": "string",
-          "private_dns": "string",
-          "private_ip": "string",
-          "ptr_record": "string",
-          "public_dns": "string",
-          "public_ip": "string",
-          "public_ipv4_pool": "string",
-          "tags": [
-            "map",
-            "string"
-          ],
-          "tags_all": [
-            "map",
-            "string"
-          ],
-          "timeouts": [
-            "object",
-            {
-              "delete": "string",
-              "read": "string",
-              "update": "string"
-            }
-          ],
-          "vpc": "bool"
-        }
-      ]
-    }
-  },
+  "outputs": {},
   "resources": [
     {
       "mode": "managed",
@@ -90,15 +15,15 @@
           "schema_version": 0,
           "attributes": {
             "address": null,
-            "allocation_id": "eipalloc-0460f2328f981e38b",
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:elastic-ip/eipalloc-0460f2328f981e38b",
+            "allocation_id": "eipalloc-0fffcce2a716c35db",
+            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:elastic-ip/eipalloc-0fffcce2a716c35db",
             "associate_with_private_ip": null,
             "association_id": "",
             "carrier_ip": "",
             "customer_owned_ip": "",
             "customer_owned_ipv4_pool": "",
             "domain": "vpc",
-            "id": "eipalloc-0460f2328f981e38b",
+            "id": "eipalloc-0fffcce2a716c35db",
             "instance": "",
             "ipam_pool_id": null,
             "network_border_group": "ap-southeast-2",
@@ -106,8 +31,8 @@
             "private_dns": null,
             "private_ip": "",
             "ptr_record": "",
-            "public_dns": "ec2-52-64-77-162.ap-southeast-2.compute.amazonaws.com",
-            "public_ip": "52.64.77.162",
+            "public_dns": "ec2-52-62-233-166.ap-southeast-2.compute.amazonaws.com",
+            "public_ip": "52.62.233.166",
             "public_ipv4_pool": "amazon",
             "tags": {
               "Name": "Instance1"
@@ -133,7 +58,7 @@
           "schema_version": 1,
           "attributes": {
             "ami": "ami-0d6560f3176dc9ec0",
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:instance/i-0c5dad6cc0e61da3e",
+            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:instance/i-0362ec50201a27f44",
             "associate_public_ip_address": true,
             "availability_zone": "ap-southeast-2a",
             "capacity_reservation_specification": [
@@ -172,7 +97,7 @@
             "host_id": "",
             "host_resource_group_arn": null,
             "iam_instance_profile": "",
-            "id": "i-0c5dad6cc0e61da3e",
+            "id": "i-0362ec50201a27f44",
             "instance_initiated_shutdown_behavior": "stop",
             "instance_lifecycle": "",
             "instance_market_options": [],
@@ -202,8 +127,8 @@
             "password_data": "",
             "placement_group": "",
             "placement_partition_number": 0,
-            "primary_network_interface_id": "eni-0db1b679da25aec8f",
-            "private_dns": "ip-172-31-34-58.ap-southeast-2.compute.internal",
+            "primary_network_interface_id": "eni-097cbb623774145ba",
+            "private_dns": "ip-172-31-40-70.ap-southeast-2.compute.internal",
             "private_dns_name_options": [
               {
                 "enable_resource_name_dns_a_record": false,
@@ -211,9 +136,9 @@
                 "hostname_type": "ip-name"
               }
             ],
-            "private_ip": "172.31.34.58",
-            "public_dns": "ec2-54-252-54-135.ap-southeast-2.compute.amazonaws.com",
-            "public_ip": "54.252.54.135",
+            "private_ip": "172.31.40.70",
+            "public_dns": "ec2-3-25-198-95.ap-southeast-2.compute.amazonaws.com",
+            "public_ip": "3.25.198.95",
             "root_block_device": [
               {
                 "delete_on_termination": true,
@@ -224,14 +149,14 @@
                 "tags": {},
                 "tags_all": {},
                 "throughput": 125,
-                "volume_id": "vol-086d42d31e016110d",
+                "volume_id": "vol-0816084739860a961",
                 "volume_size": 8,
                 "volume_type": "gp3"
               }
             ],
             "secondary_private_ips": [],
             "security_groups": [
-              "default"
+              "custom4"
             ],
             "source_dest_check": true,
             "spot_instance_request_id": "",
@@ -249,7 +174,7 @@
             "user_data_replace_on_change": false,
             "volume_tags": null,
             "vpc_security_group_ids": [
-              "sg-050f1618a9c002599"
+              "sg-04c9dde178fb0fc70"
             ]
           },
           "sensitive_attributes": [],
@@ -266,51 +191,25 @@
         {
           "schema_version": 1,
           "attributes": {
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group/sg-04156806bd76bc7ff",
+            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group/sg-096bb7804833ff84e",
             "description": "managed from terraform",
-            "egress": [],
-            "id": "sg-04156806bd76bc7ff",
-            "ingress": [
+            "egress": [
               {
                 "cidr_blocks": [
-                  "10.22.30.34/32"
+                  "0.0.0.0/0"
                 ],
                 "description": "",
-                "from_port": 21,
+                "from_port": 0,
                 "ipv6_cidr_blocks": [],
                 "prefix_list_ids": [],
-                "protocol": "tcp",
+                "protocol": "-1",
                 "security_groups": [],
                 "self": false,
-                "to_port": 21
-              },
-              {
-                "cidr_blocks": [
-                  "10.22.30.34/32"
-                ],
-                "description": "",
-                "from_port": 22,
-                "ipv6_cidr_blocks": [],
-                "prefix_list_ids": [],
-                "protocol": "tcp",
-                "security_groups": [],
-                "self": false,
-                "to_port": 22
-              },
-              {
-                "cidr_blocks": [
-                  "10.22.30.34/32"
-                ],
-                "description": "",
-                "from_port": 8080,
-                "ipv6_cidr_blocks": [],
-                "prefix_list_ids": [],
-                "protocol": "tcp",
-                "security_groups": [],
-                "self": false,
-                "to_port": 8080
+                "to_port": 0
               }
             ],
+            "id": "sg-096bb7804833ff84e",
+            "ingress": [],
             "name": "terraform-firewall",
             "name_prefix": "",
             "owner_id": "207567784968",
@@ -327,27 +226,27 @@
     },
     {
       "mode": "managed",
-      "type": "aws_vpc_security_group_ingress_rule",
-      "name": "allow_21_ipv4",
+      "type": "aws_vpc_security_group_egress_rule",
+      "name": "allow_all_traffic_ipv4",
       "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
       "instances": [
         {
           "schema_version": 0,
           "attributes": {
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group-rule/sgr-04278b7b9179fba89",
-            "cidr_ipv4": "200.22.30.34/32",
+            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group-rule/sgr-0db3be8c66f807a5b",
+            "cidr_ipv4": "0.0.0.0/0",
             "cidr_ipv6": null,
             "description": null,
-            "from_port": 21,
-            "id": "sgr-04278b7b9179fba89",
-            "ip_protocol": "tcp",
+            "from_port": null,
+            "id": "sgr-0db3be8c66f807a5b",
+            "ip_protocol": "-1",
             "prefix_list_id": null,
             "referenced_security_group_id": null,
-            "security_group_id": "sg-04156806bd76bc7ff",
-            "security_group_rule_id": "sgr-04278b7b9179fba89",
+            "security_group_id": "sg-096bb7804833ff84e",
+            "security_group_rule_id": "sgr-0db3be8c66f807a5b",
             "tags": null,
             "tags_all": {},
-            "to_port": 21
+            "to_port": null
           },
           "sensitive_attributes": [],
           "dependencies": [
@@ -365,56 +264,96 @@
         {
           "schema_version": 0,
           "attributes": {
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group-rule/sgr-01d1d0f9a30c76811",
-            "cidr_ipv4": "200.22.30.34/32",
+            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group-rule/sgr-08fd94dd36493b364",
+            "cidr_ipv4": "0.0.0.0/0",
             "cidr_ipv6": null,
             "description": null,
-            "from_port": 8080,
-            "id": "sgr-01d1d0f9a30c76811",
+            "from_port": 80,
+            "id": "sgr-08fd94dd36493b364",
             "ip_protocol": "tcp",
             "prefix_list_id": null,
             "referenced_security_group_id": null,
-            "security_group_id": "sg-04156806bd76bc7ff",
-            "security_group_rule_id": "sgr-01d1d0f9a30c76811",
+            "security_group_id": "sg-050f1618a9c002599",
+            "security_group_rule_id": "sgr-08fd94dd36493b364",
             "tags": null,
             "tags_all": {},
-            "to_port": 8080
+            "to_port": 100
           },
-          "sensitive_attributes": [],
-          "dependencies": [
-            "aws_security_group.allow_tls"
-          ]
+          "sensitive_attributes": []
         }
       ]
     },
     {
       "mode": "managed",
-      "type": "aws_vpc_security_group_ingress_rule",
-      "name": "allow_ssh_ipv4",
-      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "type": "github_repository",
+      "name": "example",
+      "provider": "provider[\"registry.terraform.io/integrations/github\"]",
       "instances": [
         {
-          "schema_version": 0,
+          "schema_version": 1,
           "attributes": {
-            "arn": "arn:aws:ec2:ap-southeast-2:207567784968:security-group-rule/sgr-044f184b23d6ff75c",
-            "cidr_ipv4": "200.22.30.34/32",
-            "cidr_ipv6": null,
-            "description": null,
-            "from_port": 22,
-            "id": "sgr-044f184b23d6ff75c",
-            "ip_protocol": "tcp",
-            "prefix_list_id": null,
-            "referenced_security_group_id": null,
-            "security_group_id": "sg-04156806bd76bc7ff",
-            "security_group_rule_id": "sgr-044f184b23d6ff75c",
-            "tags": null,
-            "tags_all": {},
-            "to_port": 22
+            "allow_auto_merge": false,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_squash_merge": true,
+            "allow_update_branch": false,
+            "archive_on_destroy": null,
+            "archived": false,
+            "auto_init": null,
+            "default_branch": "main",
+            "delete_branch_on_merge": false,
+            "description": "My awesome codebase",
+            "etag": "W/\"c7dd6047b42746c3b5f57a3f3e06f905977577048dc1d4635220cc20d006f037\"",
+            "full_name": "mbjani2/example",
+            "git_clone_url": "git://github.com/mbjani2/example.git",
+            "gitignore_template": null,
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage_url": "",
+            "html_url": "https://github.com/mbjani2/example",
+            "http_clone_url": "https://github.com/mbjani2/example.git",
+            "id": "example",
+            "ignore_vulnerability_alerts_during_read": null,
+            "is_template": false,
+            "license_template": null,
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "name": "example",
+            "node_id": "R_kgDONmWkBg",
+            "pages": [],
+            "primary_language": "HCL",
+            "private": false,
+            "repo_id": 912630790,
+            "security_and_analysis": [
+              {
+                "advanced_security": [],
+                "secret_scanning": [
+                  {
+                    "status": "enabled"
+                  }
+                ],
+                "secret_scanning_push_protection": [
+                  {
+                    "status": "enabled"
+                  }
+                ]
+              }
+            ],
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "ssh_clone_url": "git@github.com:mbjani2/example.git",
+            "svn_url": "https://github.com/mbjani2/example",
+            "template": [],
+            "topics": [],
+            "visibility": "public",
+            "vulnerability_alerts": false,
+            "web_commit_signoff_required": false
           },
           "sensitive_attributes": [],
-          "dependencies": [
-            "aws_security_group.allow_tls"
-          ]
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         }
       ]
     }

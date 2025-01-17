@@ -9,3 +9,7 @@ variable "ssh_port" {
 
 variable "ftp_port" {
 }
+
+variable "instance_type" {
+  default = "t2.micro"
+}

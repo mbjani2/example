@@ -737,3 +737,101 @@
       - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
 2025-02-28T13:49:08.488+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=6500
 2025-02-28T13:49:08.491+1100 [INFO]  backend/local: plan operation completed
+2025-02-28T14:04:16.977+1100 [INFO]  Terraform version: 1.10.2
+2025-02-28T14:04:16.978+1100 [INFO]  Go runtime version: go1.23.3
+2025-02-28T14:04:16.978+1100 [INFO]  CLI args: []string{"/opt/homebrew/Cellar/tfenv/3.0.0/versions/1.10.2/terraform", "fmt"}
+2025-02-28T14:04:16.979+1100 [INFO]  CLI command args: []string{"fmt"}
+2025-02-28T14:04:24.233+1100 [INFO]  Terraform version: 1.10.2
+2025-02-28T14:04:24.234+1100 [INFO]  Go runtime version: go1.23.3
+2025-02-28T14:04:24.234+1100 [INFO]  CLI args: []string{"/opt/homebrew/Cellar/tfenv/3.0.0/versions/1.10.2/terraform", "validate"}
+2025-02-28T14:04:24.234+1100 [INFO]  CLI command args: []string{"validate"}
+2025-02-28T14:04:24.716+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:24.878+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:24.878+1100"
+2025-02-28T14:04:25.299+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=8095
+2025-02-28T14:04:25.299+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:25.385+1100 [INFO]  provider.terraform-provider-azurerm_v4.14.0_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:25.384+1100"
+2025-02-28T14:04:25.468+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.14.0/darwin_arm64/terraform-provider-azurerm_v4.14.0_x5 id=8098
+2025-02-28T14:04:25.475+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:25.578+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:25.577+1100"
+2025-02-28T14:04:25.633+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=8099
+2025-02-28T14:04:29.441+1100 [INFO]  Terraform version: 1.10.2
+2025-02-28T14:04:29.442+1100 [INFO]  Go runtime version: go1.23.3
+2025-02-28T14:04:29.442+1100 [INFO]  CLI args: []string{"/opt/homebrew/Cellar/tfenv/3.0.0/versions/1.10.2/terraform", "plan"}
+2025-02-28T14:04:29.442+1100 [INFO]  CLI command args: []string{"plan"}
+2025-02-28T14:04:29.802+1100 [INFO]  backend/local: starting Plan operation
+2025-02-28T14:04:29.808+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:29.906+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:29.906+1100"
+2025-02-28T14:04:30.312+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=8126
+2025-02-28T14:04:30.312+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:30.359+1100 [INFO]  provider.terraform-provider-azurerm_v4.14.0_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:30.359+1100"
+2025-02-28T14:04:30.446+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.14.0/darwin_arm64/terraform-provider-azurerm_v4.14.0_x5 id=8128
+2025-02-28T14:04:30.447+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:30.545+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:30.545+1100"
+2025-02-28T14:04:30.599+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=8131
+2025-02-28T14:04:30.599+1100 [INFO]  backend/local: plan calling Plan
+2025-02-28T14:04:30.601+1100 [INFO]  provider: configuring client automatic mTLS
+2025-02-28T14:04:30.699+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: configuring server automatic mTLS: timestamp="2025-02-28T14:04:30.699+1100"
+2025-02-28T14:04:30.745+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: Retrieved credentials: @module=aws.aws-base tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.59/logging/tf_logger.go:39 tf_aws.credentials_source="SharedConfigCredentials: /Users/I758050/.aws/credentials" tf_req_id=bf022308-58b9-7c48-7df9-bc94f90dcc6f tf_rpc=ConfigureProvider timestamp="2025-02-28T14:04:30.745+1100"
+2025-02-28T14:04:30.896+1100 [INFO]  provider.terraform-provider-aws_v5.82.2_x5: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.59/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=bf022308-58b9-7c48-7df9-bc94f90dcc6f tf_rpc=ConfigureProvider timestamp="2025-02-28T14:04:30.896+1100"
+2025-02-28T14:04:30.913+1100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.management, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+      - .description: planned value cty.StringVal("Managed by Terraform") for a non-computed attribute
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(23412), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(23412)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(34213), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(34213)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(23412), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(23412)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(34213), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(34213)})})
+2025-02-28T14:04:30.913+1100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.web-server, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(443)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(443)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+2025-02-28T14:04:31.595+1100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.ec2[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-02-28T14:04:31.595+1100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.ec2[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-02-28T14:04:31.595+1100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.ec2[2], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-02-28T14:04:31.600+1100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.82.2/darwin_arm64/terraform-provider-aws_v5.82.2_x5 id=8132
+2025-02-28T14:04:31.603+1100 [INFO]  backend/local: plan operation completed

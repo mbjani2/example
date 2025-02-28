@@ -1,19 +1,3 @@
-variable "vpc_ip" {
-}
-
-variable "app_port" {
-}
-
-variable "ssh_port" {
-}
-
-variable "ftp_port" {
-}
-
-variable "available-ami" {
-  type    = list(any)
-  default = ["ami-09b42976632b27e9b", "ami-01ab4a3bc7e75f44a", "ami-0d783a243942fbe54"]
-}
 
 variable "instance_type" {
   type    = list(any)
@@ -24,12 +8,23 @@ variable "instance_type" {
 variable "default" {
   type = map(any)
   default = {
-    Project     = "DevOps"
-    Environment = "Test"
+    Project = "DevOps"
   }
 }
 
-variable "tags" {
+variable "environment" {
   type    = list(any)
   default = ["dev", "test", "prod"]
+}
+
+variable "ws_ports" {
+  type        = list(number)
+  description = "Inbound rules for Web Servers"
+  default     = null
+}
+
+variable "mg_ports" {
+  type        = list(number)
+  description = "Inbound rules for Management"
+  default     = null
 }

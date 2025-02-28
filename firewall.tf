@@ -1,28 +1,29 @@
-resource "aws_security_group" "allow_tls" {
-  name        = "terraform-firewall"
-  description = "managed from terraform"
+resource "aws_security_group" "web-server" {
+  name        = "web-server-sg"
+  description = "Inbound rules for Web Servers"
 
-}
-resource "aws_vpc_security_group_ingress_rule" "allow_http_ipv4" {
-  security_group_id = aws_security_group.allow_tls.id
-  cidr_ipv4         = var.vpc_ip
-  from_port         = var.app_port
-  ip_protocol       = "tcp"
-  to_port           = var.app_port
-}
-
-resource "aws_vpc_security_group_ingress_rule" "allow_ssh_ipv4" {
-  security_group_id = aws_security_group.allow_tls.id
-  cidr_ipv4         = var.vpc_ip
-  from_port         = var.ssh_port
-  ip_protocol       = "tcp"
-  to_port           = var.ssh_port
+  dynamic "ingress" {
+    for_each = var.ws_ports
+    content {
+      from_port   = ingress.value
+      to_port     = ingress.value
+      protocol    = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+    }
+  }
 }
 
-resource "aws_vpc_security_group_ingress_rule" "allow_21_ipv4" {
-  security_group_id = aws_security_group.allow_tls.id
-  cidr_ipv4         = var.vpc_ip
-  from_port         = var.ftp_port
-  ip_protocol       = "tcp"
-  to_port           = var.ftp_port
+resource "aws_security_group" "management" {
+  name = "Management-group"
+
+  dynamic "ingress" {
+    for_each = var.mg_ports
+    content {
+      from_port   = ingress.value
+      to_port     = ingress.value
+      protocol    = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+    }
+  }
+
 }

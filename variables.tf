@@ -22,3 +22,9 @@ variable "ws_ports" {
   description = "Inbound rules for Web Servers"
   default     = null
 }
+
+variable "mg_ports" {
+  type        = list(number)
+  description = "Inbound rules for Management"
+  default     = null
+}

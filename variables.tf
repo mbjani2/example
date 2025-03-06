@@ -14,7 +14,7 @@ variable "default" {
 
 variable "environment" {
   type    = list(any)
-  default = ["dev", "test", "prod"]
+  default = ["master", "nod1", "nod2"]
 }
 
 variable "ws_ports" {

@@ -9,3 +9,15 @@ resource "aws_instance" "ec2" {
     Name = "k8-${element(var.environment, count.index)}"
   })
 }
+
+module "nginx" {
+  source        = "./module/ec2"
+  ami           = "ami-03f052ebc3f436d52"
+  region        = "ap-southeast-2"
+  instance_type = "t2.micro"
+}
+
+resource "aws_eip" "test" {
+  domain   = "vpc"
+  instance = module.nginx.instance_id
+}

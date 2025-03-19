@@ -13,3 +13,8 @@ output "public_ip" {
 output "combined" {
   value = zipmap(aws_instance.ec2[*].tags.Name, aws_instance.ec2[*].arn)
 }
+
+
+output "Nginx-ip" {
+  value = aws_eip.test.public_ip
+}

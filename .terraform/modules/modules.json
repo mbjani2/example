@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"ec2-instance","Source":"git::https://github.com/zealvora/sample-kplabs-terraform-ec2-module.git","Dir":".terraform/modules/ec2-instance"},{"Key":"nginx","Source":"./module/ec2","Dir":"module/ec2"},{"Key":"","Source":"","Dir":"."}]}

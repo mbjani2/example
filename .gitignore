@@ -4,4 +4,4 @@ terraform_accessKeys.csv
 terraform_accessKeys.xls
 github.tf
 teams/A/*
-teams/kubernates/.terraform/
+teams/kubernates/.terraform/*
